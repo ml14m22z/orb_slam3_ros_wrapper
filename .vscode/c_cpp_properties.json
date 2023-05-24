@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/moke/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/moke/catkin_ws/src/cv_bridge/include/**",
+        "/home/moke/catkin_ws/src/robot_mrobot/mrobot_bringup/include/**",
+        "/home/moke/catkin_ws/src/orb_slam3_ros_wrapper/include/**",
+        "/usr/include/**",
+        "/home/moke/code/ml14m22z_ORB_SLAM3",
+        "/home/moke/code/ml14m22z_ORB_SLAM3/include",
+        "/home/moke/code/ml14m22z_ORB_SLAM3/include/CameraModels",
+        "/home/moke/code/ml14m22z_ORB_SLAM3/Thirdparty/Sophus/",
+        "/usr/local/opencv3416/include",
+        "/usr/include/eigen3"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

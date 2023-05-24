@@ -1,6 +1,6 @@
 <launch>
     <!-- ORB-SLAM3 -->
-    <node name="orb_slam3_mono_inertial" pkg="orb_slam3_ros_wrapper" type="orb_slam3_ros_wrapper_mono_inertial" output="screen">
+    <node name="orb_slam3_mono_inertial" pkg="orb_slam3_ros_wrapper" type="orb_slam3_ros_wrapper_mono_inertial" launch-prefix="xterm -e gdb -ex run --args" output="screen">
         <!-- for EuRoC dataset -->
         <remap from="/camera/image_raw"         to="/cam0/image_raw"/>
         <remap from="/imu"                      to="/imu0"/>

@@ -5,6 +5,13 @@
 */
 
 #include "common.h"
+#include "System.h"
+#include "publisher.h"
+#include "image_transport.h"
+#include "PoseStamped.h"
+#include "PointCloud2.h"
+#include "tf/LinearMath/Transform.h"
+#include "tf/transform_broadcaster.h"
 
 ORB_SLAM3::System::eSensor sensor_type;
 std::string world_frame_id, cam_frame_id, imu_frame_id;

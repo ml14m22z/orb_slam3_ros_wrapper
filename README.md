@@ -71,6 +71,11 @@ sudo apt install ros-[DISTRO]-hector-trajectory-server
 
 ## 3. How to run
 
+```
+cd config
+ln -sf ~/code/ml14m22z_ORB_SLAM3/Vocabulary/ORBvoc.txt
+```
+
 ### EuRoC dataset:
 
 - In one terminal, launch the node:

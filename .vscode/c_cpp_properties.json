@@ -12,6 +12,7 @@
         "/home/moke/catkin_ws/src/robot_mrobot/mrobot_bringup/include/**",
         "/home/moke/catkin_ws/src/orb_slam3_ros_wrapper/include/**",
         "/usr/include/**",
+        "${workspaceFolder}/include",
         "/home/moke/code/ml14m22z_ORB_SLAM3",
         "/home/moke/code/ml14m22z_ORB_SLAM3/include",
         "/home/moke/code/ml14m22z_ORB_SLAM3/include/CameraModels",
